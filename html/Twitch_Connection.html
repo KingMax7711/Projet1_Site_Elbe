@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html
+    lang="fr"
+    class="w-full h-full">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Twitch_Connection</title>
+        <link
+            href="/dist/output.css"
+            rel="stylesheet" />
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet" />
+    </head>
+    <body
+        class="bg-BGprimary h-full w-full items-center justify-center flex flex-col box-border -translate-y-10">
+        <div
+            class="title w-1/4 h-20 flex items-center justify-center rounded-xl border-solid border-ACprimary border bg-BGsecondary mb-16">
+            <h1 class="text-center text-white font-Poppins font-normal">
+                Bienvenue dans l'antre de <br />Elbe BOT
+            </h1>
+        </div>
+        <div class="form w-1/4 h-2/5">
+            <div
+                class="connection w-full h-full flex items-center justify-center flex-col rounded-xl border-solid border-ACprimary border bg-BGsecondary">
+                <div class="text">
+                    <h3 class="text-center text-white font-Poppins font-normal text-sm">
+                        Cliquer si dessous pour autoriser la connexion a Twitch
+                    </h3>
+                    <p
+                        class="pt-3 text-center text-white font-Poppins font-light text-xs">
+                        Attention en cliquant sur “se connecter” vous acceptez de nous
+                        transmettre les donnés suivante:
+                    </p>
+                    <ul
+                        class="pt-3 text-center text-ACprimary font-Poppins font-semibold text-xs">
+                        <li>Email</li>
+                        <li>Nom D'utilisateur</li>
+                        <li>ID D'utilisateur</li>
+                    </ul>
+                </div>
+
+                <a
+                    href="#"
+                    class="mt-4 rounded-3xl bg-ACprimary w-2/5 h-6 flex items-center justify-center text-center text-white font-Poppins font-light text-xs hover:shadow-lg hover:bg-ACprimary_active transition-all duration-500">
+                    J'accepte
+                </a>
+            </div>
+            <div class="multiple_button w-full flex flex-col justify-center items-center">
+                <button
+                    disabled
+                    href="#"
+                    class="mt-4 rounded-3xl disabled:bg-disabled bg-ACsecondary w-2/5 h-6 flex items-center justify-center text-center text-white font-Poppins font-light text-xs hover:shadow-lg hover:bg-ACsecondary_active transition-all duration-500">
+                    Se Connecter
+                </button>
+                <!--TODO : Mêttre un lien vers le support -->
+                <a
+                    href="#"
+                    class="text-ACprimary font-Poppins font-light text-[8px]">
+                    Demande D'aide
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
