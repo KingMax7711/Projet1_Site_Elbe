@@ -534,32 +534,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .box-border {
@@ -574,8 +558,8 @@ video {
   height: 40%;
 }
 
-.h-20 {
-  height: 5rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-6 {
@@ -584,6 +568,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-1\/4 {
@@ -596,16 +584,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.translate-y-6 {
-  --tw-translate-y: 1.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-6 {
-  --tw-translate-y: -1.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-y-10 {
@@ -623,10 +601,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .rounded-3xl {
@@ -674,8 +648,8 @@ video {
   padding-top: 0.75rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -684,6 +658,10 @@ video {
 
 .font-Poppins {
   font-family: Poppins, sans-serif;
+}
+
+.text-\[8px\] {
+  font-size: 8px;
 }
 
 .text-sm {
@@ -696,12 +674,29 @@ video {
   line-height: 1rem;
 }
 
-.text-\[11px\] {
-  font-size: 11px;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-\[8px\] {
-  font-size: 8px;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-light {
