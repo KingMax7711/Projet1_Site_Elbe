@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-full w-full">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,9 +12,21 @@
             rel="stylesheet"
         />
     </head>
-    <body
-        class="bg-BGprimary h-full w-full items-center justify-center flex flex-col box-border -translate-y-10"
-    ></body>
+    <body class="bg-BGprimary h-full w-full">
+        <div
+            class="nav h-full w-1/12 bg-BGsecondary flex flex-col border-r-2 border-ACprimary"
+        >
+            <div
+                class="logo self-start flex flex-col justify-center items-center pt-6 w-full h-1/6"
+            >
+                <img src="../Resources/logo_eat_ElbeBot.webp" alt="logo" class="w-3/5" />
+                <p class="font-Poppins text-base font-semibold text-center text-gray-100">
+                    L'antre d'Elbe Bot
+                </p>
+            </div>
+            <!-- Autres éléments ici -->
+        </div>
+    </body>
     <script>
         window.onload = function () {
             if (localStorage.getItem("twitchConnected") !== "true") {
