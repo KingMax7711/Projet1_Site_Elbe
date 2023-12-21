@@ -57,7 +57,7 @@
             </div>
             <div class="multiple_button w-full flex flex-col justify-center items-center">
                 <button
-                    href="./main.html"
+                    id="connectButton"
                     class="mt-4 rounded-3xl disabled:bg-disabled bg-ACsecondary w-2/5 h-10 flex items-center justify-center text-center text-white font-Poppins font-light text-base hover:shadow-lg hover:bg-ACsecondary_active transition-all duration-500"
                 >
                     Se Connecter
@@ -69,4 +69,9 @@
             </div>
         </div>
     </body>
+    <script>
+        document.getElementById("connectButton").addEventListener("click", function () {
+            window.location.href = "./main.html";
+        });
+    </script>
 </html>
