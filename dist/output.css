@@ -544,6 +544,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -708,6 +720,10 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .text-center {
